@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechMart | Online Store</title>
+
+    <!-- CONNECT HTML TO CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- TASK 2: HEADER -->
+    <header class="header">
+        <a href="#" class="logo">
+            <span class="logo-icon">T</span>
+            TechMart
+        </a>
+
+        <nav class="header-actions">
+            <button class="login-btn">Login</button>
+
+            <button class="cart-btn">
+                🛒 Cart
+                <span class="cart-count">3</span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- TASK 3: HERO BANNER -->
+        <section class="hero">
+            <div class="hero-content">
+                <span class="hero-label">YOUR TECH DESTINATION</span>
+
+                <h1>Upgrade Your Tech.<br>
+                    Upgrade Your Life.</h1>
+
+                <p>
+                    Discover premium laptops, headphones, and
+                    accessories at prices you'll love.
+                </p>
+
+                <a href="#products" class="cta-btn">
+                    Explore Products →
+                </a>
+            </div>
+        </section>
+
+        <!-- TASK 4: CATEGORY FILTERS -->
+        <section class="products-section" id="products">
+            <div class="section-heading">
+                <span class="section-label">FIND YOUR FAVORITE</span>
+                <h2>Shop by Category</h2>
+                <p>Explore our collection of must-have technology.</p>
+            </div>
+
+            <div class="filter-container">
+                <button class="filter-btn active">All</button>
+                <button class="filter-btn">Laptops</button>
+                <button class="filter-btn">Headphones</button>
+                <button class="filter-btn">Accessories</button>
+            </div>
+
+            <!-- SAMPLE PRODUCTS -->
+            <div class="product-grid">
+                <article class="product-card">
+                    <div class="product-image laptop">💻</div>
+                    <span class="product-category">Laptops</span>
+                    <h3>ProBook Laptop</h3>
+                    <p class="product-price">₱35,999</p>
+                    <button class="product-btn">View Product</button>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image headphones">🎧</div>
+                    <span class="product-category">Headphones</span>
+                    <h3>Studio Headphones</h3>
+                    <p class="product-price">₱2,499</p>
+                    <button class="product-btn">View Product</button>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image accessories">⌨️</div>
+                    <span class="product-category">Accessories</span>
+                    <h3>Mechanical Keyboard</h3>
+                    <p class="product-price">₱1,899</p>
+                    <button class="product-btn">View Product</button>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>&copy; 2026 TechMart. All rights reserved.</p>
+        <p>Technology made simple.</p>
+    </footer>
+
+</body>
+</html>
